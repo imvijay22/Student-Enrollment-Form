@@ -8,7 +8,7 @@ It is a student registration form that stores the user's data in JSONPowerDB. It
 * Minimum learning curves, builds faster, cuts time to market, reduces the development cost.
 * Helps developers in managing their databases using various tools and techniques.
 
-#Release History
+# Release History
 **JsonPowerDB**
 **Version:** 2.0
 
