@@ -51,11 +51,11 @@ function createPUTRequest(connToken, jsonObj, dbName, relName) {
 }
 ```
 
-#Features
+# Features
 * Simple to Use
 * Fast Response
 * Detailed User Interface
 
-#Tech Stack
+# Tech Stack
 **Client:** HTML,CSS,Javascript
 **Server:** JsonPowerDB
