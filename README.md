@@ -9,10 +9,11 @@ It is a student registration form that stores the user's data in JSONPowerDB. It
 * Helps developers in managing their databases using various tools and techniques.
 
 #Release History
-** JsonPowerDB **
-** Version: ** 2.0
+**JsonPowerDB**
+**Version:** 2.0
 
-**Execute API***
+**Execute API**
+
 '''
 var baseUrl = "http://api.login2explore.com:5577";
 function executeCommand(reqString, apiEndPointUrl) {
@@ -29,7 +30,8 @@ function executeCommand(reqString, apiEndPointUrl) {
 }
 '''
 
-** Create a PUT Request String**
+**Create a PUT Request String**
+
 '''
 function createPUTRequest(connToken, jsonObj, dbName, relName) {
     var putRequest = "{\n"
@@ -55,6 +57,5 @@ function createPUTRequest(connToken, jsonObj, dbName, relName) {
 * Detailed User Interface
 
 #Tech Stack
-** Client:** HTML,CSS,Javascript
+**Client:** HTML,CSS,Javascript
 **Server:** JsonPowerDB
-Server: JsonPowerDB
