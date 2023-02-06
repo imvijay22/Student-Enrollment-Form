@@ -57,6 +57,5 @@ function createPUTRequest(connToken, jsonObj, dbName, relName) {
 * Detailed User Interface
 
 # Tech Stack
-**Client:** HTML,CSS,Javascript
-
-**Server:** JsonPowerDB
+* **Client:** HTML,CSS,Javascript
+* **Server:** JsonPowerDB
