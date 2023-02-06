@@ -14,7 +14,7 @@ It is a student registration form that stores the user's data in JSONPowerDB. It
 
 **Execute API**
 
-'''
+```
 var baseUrl = "http://api.login2explore.com:5577";
 function executeCommand(reqString, apiEndPointUrl) {
     var url = baseUrl + apiEndPointUrl;
@@ -28,11 +28,11 @@ function executeCommand(reqString, apiEndPointUrl) {
     });
     return jsonObj;
 }
-'''
+```
 
 **Create a PUT Request String**
 
-'''
+```
 function createPUTRequest(connToken, jsonObj, dbName, relName) {
     var putRequest = "{\n"
             + "\"token\" : \""
@@ -49,7 +49,7 @@ function createPUTRequest(connToken, jsonObj, dbName, relName) {
             + "}";
     return putRequest;
 }
-'''
+```
 
 #Features
 * Simple to Use
